@@ -1,30 +1,30 @@
 # Links listed below will be included in your site's navbar (navigation at the top)
 
+# Links listed below will be included in your site's navbar (navigation at the top)
 - text: About
-  href: /about
-- text: Specimens
-  href: /specimen/search
+  menu: # Dropdown menu (one level deep only)
+  - text: The Garden
+    href: /the-garden/
+  - text: Ecosystems
+    href: /ecosystems/
+  - text: Caribbean flora
+    href: /flora/
+  - text: Caribbean fauna
+    href: /fauna/
 - text: Collections
-  href: /collections
-- text: Example pages
-  menu: # Dropdown menu (one level deep only)
-  - text: Simple
-    href: /example-pages/simple
-  - text: Complex
-    href: /example-pages/complex
-- text: Links
-  menu: # Dropdown menu (one level deep only)
-  - text: Base theme demo
-    href: https://hp-base-theme.gbif-staging.org/
-  - text: Other sites using the theme
-    href: https://github.com/gbif/?q=hp-&type=all&language=&sort=
-  - text: "---" # Divider to separate blocks of menu items (at least 3 "-")
-  - text: "Docs" # Title for block of menu items
-  - text: Jekyll documentation
-    href: https://jekyllrb.com/docs/pages/
-  - text: Markdown tutorial
-    href: https://guides.github.com/features/mastering-markdown/
-  - text: YAML tutorial
-    href: https://dev.to/paulasantamaria/introduction-to-yaml-125f
-- text: News
-  href: /news/
+  menu:
+  - text: Herbarium
+    href: /our-herbarium
+  - text: Seed Bank
+    href: /seed-bank
+  - text: Living collection
+    href: /living-collections
+- text: Specimens
+  menu:
+  - text: Search
+    href: /specimen/search
+  - text: Map
+    href: /specimen/search/?view=MAP
+- text: Resources
+  href: /resources
+  

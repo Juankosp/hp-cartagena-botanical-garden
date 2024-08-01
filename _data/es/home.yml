@@ -1,0 +1,127 @@
+stats:
+  background: "#edf3f3"
+  features:
+      # we can also use the graphql API to allow richer queries
+    - title: <span data-ajax-url="https://api.gbif.org/v1/occurrence/search?publishingOrg=698acf43-05cd-4b45-8107-7c666d87f77c">10000</span>
+      description: Ocurrencias de especies
+      background: /assets/icons/ocurrence.svg
+      href: /es/specimen/search/
+    - title: <span data-ajax-url="https://api.gbif.org/v1/occurrence/search?dataset_key=fcb4e601-a1d8-44b6-a9d6-75fd05a280ef">100000</span>
+      description: Especímenes de herbario
+      background: /assets/icons/leave.svg
+      href: /es/collection/d22c2d2c-43d9-4a66-8b7a-01fc7d4bc889
+    - title: <span data-ajax-url="https://api.gbif.org/v1/literature/search?publishingOrganizationKey=698acf43-05cd-4b45-8107-7c666d87f77c">10000</span>
+      description: Citas
+      background: /assets/icons/citation.svg
+      href: /es/publisher/698acf43-05cd-4b45-8107-7c666d87f77c/citations
+    - title: <span data-ajax-url="https://api.gbif.org/v1/dataset/search?publishing_org=698acf43-05cd-4b45-8107-7c666d87f77c&limit=0">10000</span>
+      description: Sets de datos
+      background: /assets/icons/data.svg
+      href: /es/dataset/search?publishingOrg=698acf43-05cd-4b45-8107-7c666d87f77c
+
+#stats:
+ # background: "#edf3f3"
+  #features:
+   #   # we can also use the graphql API to allow richer queries
+    #- title: <span data-ajax-url="https://api.gbif.org/v1/occurrence/search?publishingOrg=698acf43-05cd-4b45-8107-7c666d87f77c">100</span>
+     # description: Species occurrences
+      #href: https://www.gbif.org/occurrence/search?publishing_org=698acf43-05cd-4b45-8107-7c666d87f77c
+  #  - title: <span data-ajax-url="https://api.gbif.org/es/occurrence/search?dataset_key=fcb4e601-a1d8-44b6-a9d6-75fd05a280ef">100</span>
+   #   description: Herbarium specimens
+  #    href: https://www.gbif.org/occurrence/search?publishing_org=698acf43-05cd-4b45-8107-7c666d87f77c
+  #  - title: <span data-ajax-url="https://api.gbif.org/v1/literature/search?publishingOrganizationKey=698acf43-05cd-4b45-8107-7c666d87f77c">100</span>
+   #   description: Citations
+   #   href: https://www.gbif.org/resource/search?contentType=literature&publishingOrganizationKey=698acf43-05cd-4b45-8107-7c666d87f77c
+    #- title: <span data-ajax-url="https://api.gbif.org/v1/dataset/search?publishing_org=698acf43-05cd-4b45-8107-7c666d87f77c&limit=0">100</span>
+     # description: Datasets
+     # href: https://www.gbif.org/dataset/search?publishing_org=698acf43-05cd-4b45-8107-7c666d87f77c
+
+TheGarden:
+  reverse: false
+  title: The Garden
+  description: |      # required
+      Just 30 minutes from Cartagena’s downtown lies one of the most important and interesting ecological attractions of the Caribbean region. The Botanical Garden of Cartagena “Guillermo Piñeres” houses a collection of more than 300 plant species of the Colombian tropical dry forest and additional weird and wonderful ornamental plants from other tropical regions of the world. It also includes one of the last remaining virgin native forests in the region and is thus an important resource for the restoration of the tropical dry forest.
+  background: /assets/images/Picture4-JBGP.jpeg
+Mission:
+  reverse: true
+  title: Mission
+  description: |      # required
+   Our mission is to educate, investigate and preserve the Colombian Caribbean flora, fauna and funga. We aim to provide responsibly sourced botanical material for reintroduction and reforestation practices, to educate about the diversity and peculiarity of the Caribbean dry forests, and maintain a reference collection of herbarium specimens.
+  background: /assets/images/Picture3-JBGP.jpeg
+
+polarBear:
+  reverse: false
+  title: Visit the garden
+  description: |      # required
+    Opening hours 8:00 a.m. to 4:00 p.m. We are open 6 days a week, including weekends and holidays. We are closed on the first business day of the week. 
+    We offer Guided tours Bird watching Special packages for groups (schools, universities, companies, tourists…).
+
+    We are located in the Matute sector of the municipality of Turbaco, Bolivar (Colombia), km 9 of the I-90 highway. 30 minutes by road from downtown Cartagena de Indias.
+  background: /assets/images/Picture2-JBGP.jpeg
+  cta:
+  - text: Find us
+    href: https://www.google.com/maps/place/Cartagena+Botanical+Garden+Guillermo+Pi%C3%B1eres/@10.3528437,-75.4286829,15z/data=!4m6!3m5!1s0x8ef621187c0334d7:0x344a1304623f6a64!8m2!3d10.3528437!4d-75.4286829!16s%2Fg%2F1th5_w45?entry=ttu 
+    isPrimary: true
+
+collectionsPreview:
+  title: Colecciones destacadas
+  description: |
+    Las colecciones biológicas tienen una inmensa importancia para la preservación de la biodiversidad y el avance del conocimiento científico. Estos repositorios albergan especímenes de plantas y animales meticulosamente curados que sirven como recursos para investigadores, educadores y conservacionistas por igual. Las colecciones biológicas constituyen una parte integral del patrimonio nacional de nuestro país. En el Caribe colombiano, el Jardín Botánico juega un papel clave en la preservación y curaduría sus de colecciones biológicas.
+  features: 
+  - title: Herbario
+    description: Esta colección, considerada la más importante de la región Caribe de Colombia, alberga ejemplares recolectados por Alwyn Gentry, Hermes Cuadros, Santiago Madriñán y Vlastimil Zak. Los registros han sido recolectados desde el año 1957 hasta el año 2023 en 22 países, siendo el 81% de los registros en Colombia, principalmente de la Región Caribe y la Sierra Nevada de Santa Marta.
+    background: /assets/images/Herbarium2-JBGP.jpeg
+    href: /es/our-herbarium
+   # href: /collection/d22c2d2c-43d9-4a66-8b7a-01fc7d4bc889
+  - title: Banco de semillas
+    description: Nuestro banco de semillas tiene como objetivo preservar una muestra representativa de poblaciones de especies nativas del bosque seco tropical estacional del Caribe colombiano. Las pautas de investigación de la colección se centran en recopilar la mayor cantidad de información biológica y de uso de los especímenes, siguiendo protocolos estandarizados para la recolección, procesamiento y almacenamiento de semillas.
+    background: /assets/images/JBGP_03090.jpg
+    href: /es/seed-bank
+  - title: Colección viva
+    description: La Colección Viva del Jardín Botánico de Cartagena incluye plantas tropicales tanto nativas como cultivadas. En los últimos años, los equipos de ciencia y horticultura del Jardín Botánico han trabajado juntos para reforzar el enfoque de conservación *ex-situ* de plantas endémicas y amenazadas nativas de la región del Caribe colombiano.
+    background: /assets/images/JBGP_04468.jpg
+    href: /es/living-collections
+
+Outreach:
+  title: Divulgación
+  description: |
+    Como parte de la alianza entre el Jardín Botánico de Cartagena, la Información de Biodiversidad para el Desarrollo (BID) y la Infraestructura Mundial de Información en Biodiversidad (GBIF), y con el objetivo de consolidar el conocimiento sobre la flora del bosque seco tropical, se crearon los siguientes recursos con el propósito de educar sobre las plantas representativas del Caribe colombiano
+  features: 
+  - title: Workshops
+    description: Educamos a jóvenes investigadores locales para poner a disposición del público información sobre los ecosistemas del Caribe colombiano
+    background: /assets/images/gbifworkshop.jpeg
+    href: https://jbgp.org.co/en/workshops-gbif/
+  - title: Modelos de distribución
+    description: Recolectamos datos de ocurrencias para crear modelos que evalúen la distribución de la flora del Caribe colombiano. Estos modelos ayudan a prever la ubicación de las especies vegetales, orientando de manera efectiva los esfuerzos de conservación.
+    background: /assets/images/model.png
+    href: https://jbgp.org.co/wp-content/uploads/2023/06/mapas_comprimidos.pdf
+  - title: Fenologías
+    description: Utilizamos datos de herbario para prever mejor el momento de eventos en la flora del Caribe colombiano. Esto ayuda a comprender sus patrones ecológicos y facilita los esfuerzos de conservación.
+    background: /assets/images/pheno.png
+    href: https://juankosp.github.io/fenologia/fenologi%CC%81a_interactiva.html 
+
+OccurenceMap: 
+   klass: iframe-box
+   markdownContent: |
+    <iframe seamless frameborder="0" src="/specimen/search/?view=MAP" height = '790' width="1370" scrolling='yes' ></iframe>
+
+Research:
+  title: Investigación
+  description: |
+    El Jardín, un centro de ciencia certificado, impulsa el estudio de especies de plantas nativas, particularmente aquellas endémicas y amenazadas del bosque seco tropical estacional del Caribe colombiano. A través del trabajo de campo y la recopilación de datos, los investigadores del Jardín pretenden profundizar nuestra comprensión de las adaptaciones únicas y las funciones ecológicas de estas plantas. Estas investigaciones no solo aumentan el conocimiento científico de la flora local, sino que también generan información para el desarrollo de estrategias de conservación y preservar de ecosistemas críticos y su posterior implementación en toma de decisiones a una escala regional y global.
+  features: 
+  - title: Monitoreo de vegetación
+    description: Nuestras parcelas permanentes son cruciales para la recopilación de datos a largo plazo, proporcionando una línea base para el monitoreo de la biodiversidad, comprendiendo la dinámica del ecosistema, respaldando esfuerzos de conservación y facilitando experimentos ecológicos y la educación.
+    background: assets/images/JBGP_01419.jpg
+    href: /es/permanent-plots
+  - title: Proyecto Biodiversidad del Caribe Colombiano 
+    description: Este proyecto tiene como objetivo el desarrollo de investigaciones sobre el origen y mantenimiento de la biodiversidad en un contexto sistemático evolutivo. Con base en estudios florísticos y faunísticos y de ecología de plantas, animales y sus interacciones principalmente, pero no limitados a la región Neotropical, reconocer sistemas biológicos adecuados para el estudio de evolución de la biota.  
+    background: assets/images/JBGP_00825.jpg
+    href: /es/dataset/3d69045d-372c-455f-8663-0d815cff666f
+
+#OccurenceMap: 
+#   klass: iframe-box
+#   markdownContent: |
+#    #<iframe seamless frameborder="0" src="https://api.gbif.org/v2/map/occurrence/adhoc/0/0/0@2x.png?srs=EPSG:4326&bin=hex&hexPerTile=200&publishing_org=698acf43-05cd-4b45-8107-7c666d87f77c&style=purpleYellow.point	" height = '790' width="1370" scrolling='yes' ></iframe>
+    
+

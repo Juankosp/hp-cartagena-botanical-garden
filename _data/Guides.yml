@@ -1,0 +1,10 @@
+title: "Guides"
+description: |
+  
+features:
+  - title: Species Guide of Flora and Fauna of Cienaga de la Virgen
+    description: |      # required
+      
+    # img required
+    background: /assets/images/Guide1-JBGP.jpeg
+    href: https://jbgp.org.co/wp-content/uploads/2023/06/GuiadeFaunayFloradelaCienagadelaVirgenCartagena.pdf

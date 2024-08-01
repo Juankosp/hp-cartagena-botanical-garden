@@ -2,3 +2,82 @@
 
 // You can add additional styling here
 @import "_example";
+
+//Pone la barra de menú en el centro
+
+.navbar-content {
+    flex-grow: unset;
+      margin: auto;
+  }
+
+  //Define la barra de menú fija
+
+.navbar {
+	background-color: white;
+	floating: true;
+	//position: sticky;
+	background-size: cover;
+	top: 0;
+	width: 100%;
+	box-shadow: 0px 5px 40px rgba(0,0,0,0.1);
+	.navbar-brand {
+ 		background-size: cover;
+	  }
+}
+
+
+//Corrige separación entre elementos de listas
+
+.content li, .feature-content li {
+    margin-bottom: 0.1em;
+}
+
+//Tamaño de íconos de cifras
+
+.statistic .feature-img {
+    width: 40%;
+}
+
+
+//Define la altura de la barra de navegación en rem
+
+$navbar-item-img-max-height: 5rem;
+
+
+//Define el ancho mínimo para mantener la barra de navegación antes de cambiar al menú hamburguesa responsive
+
+$navbar-breakpoint: 1100px;
+
+.navbar-content {
+    flex-grow: unset;
+      margin: auto;
+  }
+
+
+@import "theme/_main";
+
+//Tarjetas destacadas
+
+article.feature {
+	flex: 0 0 350px;
+	border: none;
+	box-shadow: 0px 0px 15px rgba(0,0,0,0.10);
+//	border-radius: 3px;
+	border-radius: 0 0 0 0;
+}
+
+//Define la altura del footer en rem
+
+.footer {
+    background-color: #fafafa;
+    padding: 1rem 1rem 1rem;
+}
+
+.textbox-description {
+	font-size: 10px; // You can adjust this value based on your preference
+	// Add any other styling properties as needed
+  }
+
+.description.textarea {
+    max-width: 80%;
+}

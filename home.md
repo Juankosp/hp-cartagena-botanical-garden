@@ -1,30 +1,24 @@
 ---
 lang-ref: home
 layout: home
-title: Jardín Botánico Guillermo Piñeres
-description: A sólo 30 minutos del centro de Cartagena se encuentra una de las atracciones ecológicas más importantes e interesantes de la región del Caribe.
-background:  /assets/images/Carrusel-jardin.jpg
-imageLicense: Image description and license should go here
-height: 70vh
-cta:
-  - text: Specimens
-    href: /specimen/search
-    isPrimary: true
-  - text: Collections
-    href: /collections
+title: Explore the Biodiversity of the Colombian Caribbean
+background:  assets/images/IMG_9817.JPG
+description: The goal of the Cartagena Botanical Garden is to foster and expand a collaborative network in the field of biodiversity informatics by facilitating the mobilization, publication, and utilization of data. This webpage serves as a portal to access published records of plant biodiversity occurrences curated by the Garden.
+height: 80vh
 navbar:
-    color: transparent
-    hasWhiteText: true
+    color: white
+    hasWhiteText: false
     floating: true
 composition:
-  - type: heroImage # the block type
+  - type: heroImage
+  - type: stats
+    data: home.stats
   - type: features
     data: home.collectionsPreview
-  - type: split
-    data: home.polarBear
   - type: features
-    data: home.specimens
+    data: home.Research
+  - type: features
+    data: home.Outreach
 permalink: /
 ---
 
-This page is composed using the data in `_data/home.yml` and the frontmatter above

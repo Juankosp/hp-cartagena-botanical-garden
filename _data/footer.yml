@@ -3,25 +3,16 @@
 
 # Columns (the more you add, the narrower they will be)
 columns:
-  - name: Partners
-    links:
-    - text: Name of project partner 1
-      href: http://example.com
-    - text: Name of project partner 2
-      href: http://example.com
-
-  - name: Code
-    description: | # Can be Markdown
-      This project is open source. See `_data/footer.yml` to customize the footer.
-  
+  - description: |
+      [<img src="/assets/images/Logo_JBC_negro_sinfondo.png"/>](https://www.jbgp.org.co/en/)
   - name: Contact
     description: | # Can be Markdown
-      Social icons links defined in `_config.yml`
-      * Street name
-      * 1234 postal code
-      * Country
-    connectIcons: true
-
+      * Matute km 9 Autopista I-90
+      * Bolívar, Colombia, 131007
+      * [The garden's website](https://www.jbgp.org.co/)  
+      * [Mail us](mailto:horticultura@jbgp.org.co)   
+    connectIcons: false
+text: © {{ 2023 Jardín Botánico de Cartagena “Guillermo Piñeres” }}
   # EXAMPLE
   #- name: Group name
   #  description: |

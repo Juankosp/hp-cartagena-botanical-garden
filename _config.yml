@@ -19,14 +19,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Guillermo Piñeres # the title of your site should go here
+title: Jardín Botánico de Cartagena # the title of your site should go here
 email: your-email@example.com
 description: >- # this means to ignore newlines (until baseurl:)
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://cartagena-botanical-garden.hp.gbif.org/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://data.jbgp.org.co/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: yourname # if you have an account you want to link to. Else comment this line out
 github_username:  yourname # if you have an account you want to link to. Else comment this line out
 
@@ -40,21 +40,22 @@ remote_theme: gbif/jekyll-hp-base-theme
 
 # For use by the 'standardPrivacy' layout
 privacy:
-  name: Your organisation name
-  domain: your-domain.org
-  contactEmail: info@your-domain.org
-  helpdeskEmail: helpdesk@your-domain.org
+  name: Fundación Jardín Botánico Guillermo Piñeres
+  domain: www.jbgp.org.co/en
+  contactEmail: direccion@jbgp.org.co
+  helpdeskEmail: direccion@jbgp.org.co
 
 algae:
-  rootLang: es
+  rootLang: en
   # latestPostLimit: 2
   # logo: /assets/images/placeholders/logo.png  # Logo in navbar, will be displayed with 28px height
-  logoAndTitle: true           # include the title next to the logo
+  logo: assets/images/Logo_JBC_negro_sinfondo.png
+  logoAndTitle: false          # include the title next to the logo
   archive_permalink: /news/       # Permalink of page using archive.html layout, required when using post categories
   style:
     # square: false               # Should corners be square or rounded
     colors:
-      primary: "#2997ab"          # Primary color of your brand. Use HEX code. Used for buttons and links
+      primary: "#000000"          # Primary color of your brand. Use HEX code. Used for buttons and links
       # links: "#fa5e97"          # What color should links have. Use a HEX code. DEfault is primary color. 
     coloredHeadlineLinks: false   # If a headline is a link, then use the link color. Default is true. 
   navbar:                         # RELATED TO NAVIGATION BAR
@@ -93,7 +94,7 @@ defaults:
       path: "" # an empty string here means all files in the project
     values:
       layout: "page" # So by default any page will use the layout "page"
-      lang: es # And have the default language english
+      lang: en # And have the default language english
   - scope:
       path: "_posts" # an empty string here means all files in the project
     values:
@@ -109,3 +110,9 @@ defaults:
     values:
       layout: "post"
       permalink: "/en/post/:year/:slug/"   # Use /post/yyyy/{filename}/ as permalink for all posts
+  -
+    scope:
+      path: "es/"
+    values:
+      lang: es
+
